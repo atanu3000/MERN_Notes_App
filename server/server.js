@@ -30,7 +30,7 @@ app.use(express.urlencoded({ extended: true })); // URL Body Parser
 app.use(
   cors({
     origin: "https://noteitdownbyatanu.vercel.app/",
-    credentials: true,
+    // credentials: true,
   })
 );
 
