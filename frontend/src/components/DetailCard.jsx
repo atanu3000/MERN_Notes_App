@@ -28,7 +28,7 @@ export default function DetailCard({ note }) {
         }).then((result) => {
             if (result.isConfirmed) {
                 axios
-                    .delete(`https://mern-notes-backend-5z2j.onrender.com/${note._id}`)
+                    .delete(`https://mern-notes-backend-5z2j.onrender.com/deleteNote/${note._id}`)
                     .then(() => {
                         navigate("/");
                         Swal.fire(
