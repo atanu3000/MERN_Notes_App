@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'DM Serif Display', serif;
+}
+
+body {
+  background: #f4f0e4;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 2em;
+}
+
+nav .action button {
+  background-color: #f4f0e4;
+  color: #f5400f;
+  border: 2px solid #f5400f;
+  border-radius: 20px;
+  padding: 0.5em 1em;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+
+.headline {
+  text-align: center;
+  margin-top: 1em;
+}
+.headline span {
+  color: #f5400f;
+}
+
+.addNote {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  padding: 1em 2em;
+  font-size: 1.1em;
+  letter-spacing: 1px;
+  background: linear-gradient(#c53913, #f5400f);
+  color: #f4f0e4;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.note-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  align-items: center;
+  margin-top: 4em;
+}
+
+.note-form textarea, 
+.note-form input,
+.note-form button {
+  min-width: 300px;
+  padding: 1em;
+  font-size: 1.1em;
+  border: none;
+  border-radius: 25px;
+  background-color: #fff;
+  resize: none;
+  outline: 2px solid #f9b6a3;
+  letter-spacing: 1px;
+}
+
+.note-form button {
+  background: linear-gradient(#c53913, #f5400f);
+  outline: none;
+  color: #fff;
+  font-size: 1.4em;
+  padding: 0.5em 1em;
+  letter-spacing: 0px;
+  cursor: pointer;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1em;
+  margin: 2em 0;
+  margin-bottom: 100px;
+}
+
+.noteCard {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  background-color: #fff;
+  padding: 0.5em 1em;
+  width: 300px;
+  min-height: 135px;
+  margin: 1em;
+}
+
+.noteCard .title,
+.note-details .title {
+  color: #f5400f;
+  display: flex;
+  justify-content: space-between;
+  text-transform: capitalize;
+}
+
+.noteCard .details,
+.note-details .details {
+  color: #333;
+}
+
+.container {
+  padding: 1em;
+}
+
+.note-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5em;
+  background-color: #fff;
+  margin: 0 auto;
+  margin-top: 5em;
+  padding: 1em;
+  max-width: 700px;
+}
+
+.note-details .action {
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
+}
