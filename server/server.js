@@ -29,7 +29,7 @@ app.use(express.urlencoded({ extended: true })); // URL Body Parser
 // CORS
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://noteitdownbyatanu.vercel.app/",
     credentials: true,
   })
 );

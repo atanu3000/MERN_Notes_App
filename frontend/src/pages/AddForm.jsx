@@ -19,7 +19,7 @@ export default function AddForm() {
     const submitHandler = (event) => {
       event.preventDefault();
       axios
-        .post(`http://localhost:3000/addNote`, note)
+        .post(`https://mern-notes-backend-5z2j.onrender.com/addNote`, note)
         .then(() => {
           navigate('/');
           Swal.fire({

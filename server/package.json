@@ -8,7 +8,7 @@
     "dev": "nodemon server.js"
   },
   "keywords": [],
-  "author": "Chirag Chakraborty",
+  "author": "Atanu Paul",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
