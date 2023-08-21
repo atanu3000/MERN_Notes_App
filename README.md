@@ -19,7 +19,7 @@ Before you begin, ensure you have met the following requirements:
 1. Clone the repository:
 
    ```bash
-   https://github.com/atanu3000/MERN_Notes_App.git
+   git clone https://github.com/atanu3000/MERN_Notes_App.git
    ```
 2. Navigate to the repository
 
